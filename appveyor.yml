@@ -10,7 +10,7 @@ install:
   - 7z x ninja.zip -oC:\projects\deps\ninja > nul
   - set PATH=C:\projects\deps\ninja;%PATH%
   - ninja --version
-
+#####
 before_build:
     - mkdir build
     - cd build
